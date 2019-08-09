@@ -1,0 +1,51 @@
+.uk-container {
+    /*width: 500px;*/
+}
+
+.calculator {
+    width: 450px;
+    height: 500px;
+    /*padding: 1em;*/
+    background-image: url("black-texture.jpg");
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.user-output {
+    /*padding-bottom: 1em;*/
+    padding-top: 35px;
+}
+
+.uk-input {
+    color: #EFF1E5;
+    border-radius: 4px;
+    background-color: #6A5C6E;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 2em;
+}
+
+.buttons {
+    padding-top: 4em;
+    color: #1A171D;
+}
+
+.uk-button {
+    margin: 1em .5em;
+    width: 70px;
+    border-radius: 4px;
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#left-operand, #right-operand {
+    width: 125px;
+    height: 65px;
+}
+
+#operator {
+    width: 75px;
+    height: 65px;
+}

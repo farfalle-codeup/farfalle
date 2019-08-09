@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css" />
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+<div class="uk-container">
+    <div class = "uk-position-center calculator">
+        <div class="all-the-buttons">
+            <div class = "uk-position-top-center user-output">
+                <input class="uk-input" id="left-operand" readonly>
+                <input class="uk-input" id="operator" readonly>
+                <input class="uk-input" id="right-operand" readonly>
+            </div>
+            <br>
+            <div class ="uk-position-center buttons">
+                <div>
+                    <button class="uk-button numbers" value="1">1</button>
+                    <button class="uk-button numbers" value="2">2</button>
+                    <button class="uk-button numbers" value="3">3</button>
+                    <button class="uk-button" id="add" value="+">+</button>
+                </div>
+                <div>
+                    <button class="uk-button numbers" value="4">4</button>
+                    <button class="uk-button numbers" value="5">5</button>
+                    <button class="uk-button numbers" value="6">6</button>
+                    <button class ="uk-button" id="subtract" value="-">-</button>
+                </div>
+                <div>
+                    <button class="uk-button numbers" value="7">7</button>
+                    <button class="uk-button numbers" value="8">8</button>
+                    <button class="uk-button numbers" value="9">9</button>
+                    <button class="uk-button" id="multiply" value="×">×</button>
+                </div>
+                <div>
+                    <button class="uk-button numbers" value="0">0</button>
+                    <button class="uk-button numbers" value=".">.</button>
+                    <button class="uk-button" id="equals" value="=">=</button>
+                    <button class="uk-button" id="divide" value="÷">÷</button>
+                </div>
+                <div>
+                    <button class="uk-button" id="clear" value="C">C</button>
+                    <button class="uk-button numbers" type="submit"  value="-">+/-</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="jquery-2.x-git.js"></script>
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
+<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
