@@ -1,4 +1,4 @@
-package exercise;
+package vet;
 
 public class Dog extends Animal {
 }

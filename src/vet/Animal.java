@@ -1,4 +1,4 @@
-package exercise;
+package vet;
 
 import java.util.Scanner;
 
